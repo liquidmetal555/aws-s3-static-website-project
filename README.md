@@ -37,7 +37,7 @@ Access is managed using S3 bucket policies and public access settings. Presigned
 ### 1. 🪣 S3 Bucket Creation
 Created an Amazon S3 bucket called sim-website555 to host the static website. Selected an appropriate region and ensured a unique bucket name.
 
- ![S3 Bucket Creation](screenshots/bucket-created.png)  
+ ![S3 Bucket Creation](lab screenshot//bucket-created.png)  
 
 ---
 
