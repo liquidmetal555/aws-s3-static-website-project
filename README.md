@@ -35,14 +35,14 @@ Access is managed using S3 bucket policies and public access settings. Presigned
 ### 1. 🪣 S3 Bucket Creation
 Created an Amazon S3 bucket to host the static website. Selected an appropriate region and ensured a unique bucket name.
 
-     ![S3 Bucket Creation](screenshots/bucket-created.png)
+ ![S3 Bucket Creation](screenshots/bucket-created.png)  
 
 ---
 
 ### 2. 🌐 Configuring a static website on Amazon S3
 Enabled static website hosting on the S3 bucket and configured the index document to serve as the homepage.
 
-    ![Static Hosting](screenshots/static-hosting.png)
+   ![Static Hosting](screenshots/static-hosting.png)
 
 ---
 
@@ -62,28 +62,27 @@ Updated S3 bucket permissions to allow public access so the website could be vie
 
 ### 5.🔗  Presigned URL GenerationBucket Policy Configuration
 Generated a presigned URL to securely provide temporary access to a specific object and verified time-based access control.
-
-  📸  ![Bucket Policy](screenshots/bucket-policy.png)
+    ![Bucket Policy](screenshots/bucket-policy.png)
 
 ---
 
 ### 6. 🛡️  Bucket Policy Configuration
 Configured a bucket policy to define access rules and restrict unauthorized actions such as deletion.
 
-  📸 ![Presigned URL](screenshots/presigned-url.png)
+   ![Presigned URL](screenshots/presigned-url.png)
 
 ---
 
 ### 7. 🔄 Website Update
 Updated website content by modifying and re-uploading files and verified changes on the live site.
 
-  📸 ![Website Update](screenshots/website-update.png)
+   ![Website Update](screenshots/website-update.png)
 
 ---
 ### 8. 📋 Object Versioning Enabled
 Enabled versioning on the S3 bucket to track changes and allow recovery of previous file versions in case of updates or accidental changes.
 
-  📸 ![Versioning](screenshots/versioning.png)
+   ![Versioning](screenshots/versioning.png)
 
 
 ---
