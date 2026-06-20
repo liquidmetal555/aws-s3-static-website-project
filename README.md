@@ -8,7 +8,7 @@ The project also explores key AWS concepts such as bucket policies, presigned UR
 
 This project was completed as part of hands on AWS learning to strengthen cloud engineering and DevOps skills.
 
-## AWS Services Used
+## ☁️ 🖥️ AWS Services Used
 -  Amazon S3 (Simple Storage Service)
 
 ## Features Implemented
@@ -22,7 +22,7 @@ This project was completed as part of hands on AWS learning to strengthen cloud 
 - Website content updates and redeployment
 
 
-## Architecture
+## 🛠️  Architecture
 
 This project uses a single Amazon S3 bucket to host a static website.
 Users access the site through the S3 static website endpoint after enabling public access to bucket objects.
@@ -32,63 +32,63 @@ Access is managed using S3 bucket policies and public access settings. Presigned
 
 ## Steps Performed
 
-### 1. S3 Bucket Creation
+### 1. 🪣 S3 Bucket Creation
 Created an Amazon S3 bucket to host the static website. Selected an appropriate region and ensured a unique bucket name.
 
    📸 ![S3 Bucket Creation](screenshots/bucket-created.png)
 
 ---
 
-### 2.Configuring a static website on Amazon S3
+### 2. 🌐 Configuring a static website on Amazon S3
 Enabled static website hosting on the S3 bucket and configured the index document to serve as the homepage.
 
    📸 ![Static Hosting](screenshots/static-hosting.png)
 
 ---
 
-### 3. Website Content Upload
+### 3. 📤 Website Content Upload
 Uploaded website files including HTML and CSS into the S3 bucket and verified successful storage.
 
-![File Upload](screenshots/file-upload.png)
+  📸 ![File Upload](screenshots/file-upload.png)
 
 ---
 
-### 4. Turning on public access to the objects
+### 4. 👁️ Turning on public access to the objects
 Updated S3 bucket permissions to allow public access so the website could be viewed via browser.
 
-![Public Access](screenshots/public-access.png)
+  📸 ![Public Access](screenshots/public-access.png)
 
 ---
 
-### 5. Presigned URL GenerationBucket Policy Configuration
+### 5.🔗  Presigned URL GenerationBucket Policy Configuration
 Generated a presigned URL to securely provide temporary access to a specific object and verified time-based access control.
 
-![Bucket Policy](screenshots/bucket-policy.png)
+  📸  ![Bucket Policy](screenshots/bucket-policy.png)
 
 ---
 
-### 6. Bucket Policy Configuration
+### 6. 🛡️  Bucket Policy Configuration
 Configured a bucket policy to define access rules and restrict unauthorized actions such as deletion.
 
-![Presigned URL](screenshots/presigned-url.png)
+  📸 ![Presigned URL](screenshots/presigned-url.png)
 
 ---
 
-### 7. Website Update
+### 7. 🔄 Website Update
 Updated website content by modifying and re-uploading files and verified changes on the live site.
 
-![Website Update](screenshots/website-update.png)
+  📸 ![Website Update](screenshots/website-update.png)
 
 ---
-### 8. Object Versioning Enabled
+### 8. 📋 Object Versioning Enabled
 Enabled versioning on the S3 bucket to track changes and allow recovery of previous file versions in case of updates or accidental changes.
 
-![Versioning](screenshots/versioning.png)
+  📸 ![Versioning](screenshots/versioning.png)
 
 
 ---
 
-## Security Highlights
+## 🔐  Security Highlights
 
 - Public access configured with controlled permissions  
 - Bucket policy applied to manage access rules and restrictions  
@@ -97,7 +97,7 @@ Enabled versioning on the S3 bucket to track changes and allow recovery of previ
 
 ---
 
-## Key Learnings
+## 🔑 Key Learnings
 
 - How Amazon S3 static website hosting works end to end  
 - Difference between public access and secure temporary access  
@@ -107,7 +107,7 @@ Enabled versioning on the S3 bucket to track changes and allow recovery of previ
 
 ---
 
-## Future Improvements
+## ✏️ 🔄 Future Improvements
 
 - Add CloudFront CDN for faster global delivery  
 - Connect a custom domain using Route 53  
@@ -117,7 +117,7 @@ Enabled versioning on the S3 bucket to track changes and allow recovery of previ
 ---
 
 
-## Project Outcome
+## 🏆 Project Outcome
 
 This project provided hands on experience in deploying a static website on AWS S3 while implementing storage configuration, access control, secure sharing, and version management.
 
