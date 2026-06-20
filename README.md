@@ -115,3 +115,17 @@ Enabled versioning on the S3 bucket to track changes and allow recovery of previ
 - Automate deployment using CI/CD pipelines (GitHub Actions or AWS CodePipeline)  
 
 ---
+
+
+## Project Outcome
+
+This project provided hands on experience in deploying a static website on AWS S3 while implementing storage configuration, access control, secure sharing, and version management.
+
+It demonstrates foundational cloud engineering and DevOps skills including infrastructure setup, security awareness, and deployment workflows.
+
+---
+
+## Author
+
+Built by: Desmond Ojei 
+Cloud Engineering Learning Project (AWS S3 Simulation)
