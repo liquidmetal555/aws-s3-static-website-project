@@ -2,7 +2,7 @@
 AWS S3 static website project covering bucket creation, static website hosting configuration, content upload, public access setup, secure object sharing using presigned URLs, bucket policy security, website updates, and versioning for object recovery.
 
 
-## Overview
+## 📋 Overview
 This project demonstrates how to design, deploy, and manage a static website using Amazon S3. It simulates a real world cloud storage and web hosting workflow by configuring an S3 bucket for static website hosting, uploading website content, enabling public access, and applying security controls.
 The project also explores key AWS concepts such as bucket policies, presigned URLs for secure temporary access, object versioning for recovery, and website content updates after deployment.
 
@@ -35,14 +35,14 @@ Access is managed using S3 bucket policies and public access settings. Presigned
 ### 1. S3 Bucket Creation
 Created an Amazon S3 bucket to host the static website. Selected an appropriate region and ensured a unique bucket name.
 
-![S3 Bucket Creation](screenshots/bucket-created.png)
+   📸 ![S3 Bucket Creation](screenshots/bucket-created.png)
 
 ---
 
 ### 2.Configuring a static website on Amazon S3
 Enabled static website hosting on the S3 bucket and configured the index document to serve as the homepage.
 
-![Static Hosting](screenshots/static-hosting.png)
+   📸 ![Static Hosting](screenshots/static-hosting.png)
 
 ---
 
@@ -125,7 +125,13 @@ It demonstrates foundational cloud engineering and DevOps skills including infra
 
 ---
 
-## Author
+## 🔗 Resources
 
-Built by: Desmond Ojei 
-Cloud Engineering Learning Project (AWS S3 Simulation)
+- [AWS S3 Documentation](https://docs.aws.amazon.com/s3/)
+- [GitHub Markdown Guide](https://docs.github.com/en/get-started/writing-on-github)
+
+## 📝 Author
+
+- **Desmond Ojei**
+- GitHub: [@liquidmetal](https://github.com/liquidmetal)
+- Date: 2026-06-19
