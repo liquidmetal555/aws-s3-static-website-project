@@ -35,28 +35,28 @@ Access is managed using S3 bucket policies and public access settings. Presigned
 ### 1. 🪣 S3 Bucket Creation
 Created an Amazon S3 bucket to host the static website. Selected an appropriate region and ensured a unique bucket name.
 
-   📸 ![S3 Bucket Creation](screenshots/bucket-created.png)
+     ![S3 Bucket Creation](screenshots/bucket-created.png)
 
 ---
 
 ### 2. 🌐 Configuring a static website on Amazon S3
 Enabled static website hosting on the S3 bucket and configured the index document to serve as the homepage.
 
-   📸 ![Static Hosting](screenshots/static-hosting.png)
+    ![Static Hosting](screenshots/static-hosting.png)
 
 ---
 
 ### 3. 📤 Website Content Upload
 Uploaded website files including HTML and CSS into the S3 bucket and verified successful storage.
 
-  📸 ![File Upload](screenshots/file-upload.png)
+   ![File Upload](screenshots/file-upload.png)
 
 ---
 
 ### 4. 👁️ Turning on public access to the objects
 Updated S3 bucket permissions to allow public access so the website could be viewed via browser.
 
-  📸 ![Public Access](screenshots/public-access.png)
+   ![Public Access](screenshots/public-access.png)
 
 ---
 
