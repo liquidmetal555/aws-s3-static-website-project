@@ -39,7 +39,7 @@ Created an Amazon S3 bucket to host the static website. Selected an appropriate 
 
 ---
 
-### 2. Static Website Hosting Configuration
+### 2.Configuring a static website on Amazon S3
 Enabled static website hosting on the S3 bucket and configured the index document to serve as the homepage.
 
 ![Static Hosting](screenshots/static-hosting.png)
@@ -53,38 +53,38 @@ Uploaded website files including HTML and CSS into the S3 bucket and verified su
 
 ---
 
-### 4. Public Access Configuration
+### 4. Turning on public access to the objects
 Updated S3 bucket permissions to allow public access so the website could be viewed via browser.
 
 ![Public Access](screenshots/public-access.png)
 
 ---
 
-### 5. Bucket Policy Configuration
-Configured a bucket policy to define access rules and restrict unauthorized actions such as deletion.
+### 5. Presigned URL GenerationBucket Policy Configuration
+Generated a presigned URL to securely provide temporary access to a specific object and verified time-based access control.
 
 ![Bucket Policy](screenshots/bucket-policy.png)
 
 ---
 
-### 6. Presigned URL Generation
-Generated a presigned URL to securely provide temporary access to a specific object and verified time-based access control.
+### 6. Bucket Policy Configuration
+Configured a bucket policy to define access rules and restrict unauthorized actions such as deletion.
 
 ![Presigned URL](screenshots/presigned-url.png)
 
 ---
 
-### 7. Object Versioning Enabled
+### 7. Website Update
+Updated website content by modifying and re-uploading files and verified changes on the live site.
+
+![Website Update](screenshots/website-update.png)
+
+---
+### 8. Object Versioning Enabled
 Enabled versioning on the S3 bucket to track changes and allow recovery of previous file versions in case of updates or accidental changes.
 
 ![Versioning](screenshots/versioning.png)
 
----
-
-### 8. Website Update
-Updated website content by modifying and re-uploading files and verified changes on the live site.
-
-![Website Update](screenshots/website-update.png)
 
 ---
 
