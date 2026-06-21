@@ -44,47 +44,49 @@ Created an Amazon S3 bucket called sim-website555 to host the static website. Se
 ### 2. 🌐 Configuring a static website on Amazon S3
 Enabled static website hosting on the S3 bucket and configured the index document to serve as the homepage.
 
-   ![Static Hosting](screenshots/static-hosting.png)
+   ![Static Hosting](Screenshots/static-hosting01.png)
+   ![Static Hosting](Screenshots/static-hosting02.png)
+
 
 ---
 
 ### 3. 📤 Website Content Upload
 Uploaded website files including HTML and CSS into the S3 bucket and verified successful storage.
 
-   ![File Upload](screenshots/file-upload.png)
+   ![File Upload](Screenshots/file-upload.png)
 
 ---
 
 ### 4. 👁️ Turning on public access to the objects
 Updated S3 bucket permissions to allow public access so the website could be viewed via browser.
 
-   ![Public Access](screenshots/public-access.png)
+   ![Public Access](Screenshots/public-access.png)
 
 ---
 
 ### 5.🔗  Presigned URL GenerationBucket Policy Configuration
 Generated a presigned URL to securely provide temporary access to a specific object and verified time-based access control.
-    ![Bucket Policy](screenshots/bucket-policy.png)
+    ![Bucket Policy](Screenshots/bucket-policy.png)
 
 ---
 
 ### 6. 🛡️  Bucket Policy Configuration
 Configured a bucket policy to define access rules and restrict unauthorized actions such as deletion.
 
-   ![Presigned URL](screenshots/presigned-url.png)
+   ![Presigned URL](Screenshots/presigned-url.png)
 
 ---
 
 ### 7. 🔄 Website Update
 Updated website content by modifying and re-uploading files and verified changes on the live site.
 
-   ![Website Update](screenshots/website-update.png)
+   ![Website Update](Screenshots/website-update.png)
 
 ---
 ### 8. 📋 Object Versioning Enabled
 Enabled versioning on the S3 bucket to track changes and allow recovery of previous file versions in case of updates or accidental changes.
 
-   ![Versioning](screenshots/versioning.png)
+   ![Versioning](Screenshots/versioning.png)
 
 
 ---
