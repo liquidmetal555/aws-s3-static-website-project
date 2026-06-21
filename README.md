@@ -51,7 +51,7 @@ Enabled static website hosting on the S3 bucket and configured the index documen
 ---
 
 ### 3. 📤 Website Content Upload
-Uploaded website files including HTML and CSS into the S3 bucket and verified successful storage.
+Uploaded website files including HTML, JS and CSS into the S3 bucket and verified successful storage.
 
    ![File Upload](Screenshots/file-upload.png)
 
