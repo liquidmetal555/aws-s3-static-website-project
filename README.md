@@ -129,7 +129,7 @@ This project provided hands on experience in deploying a static website on AWS S
 
 It demonstrates foundational cloud engineering and DevOps skills including infrastructure setup, security awareness, and deployment workflows.
 
-hosted website   http://sim-website555.s3-website-us-west-2.amazonaws.com/
+👉 [Click here to view the live site](http://sim-website555.s3-website-us-west-2.amazonaws.com/)
 ---
 
 ## 🔗 Resources
