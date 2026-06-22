@@ -78,8 +78,9 @@ Implemented an Amazon S3 bucket policy to enhance website security by preventing
 
   ![Bucket Policy](Screenshots/bucket-policy.png)
   
-Verified S3 bucket policy blocking file deletion for improved security of static website assets.
-Notice that the index.html file is listed in the Failed to delete pane
+   Verified S3 bucket policy blocking file deletion for improved security of static website assets.
+   Notice that the index.html file is listed in the Failed to delete pane
+   
    ![Bucket Policy](Screenshots/failed-to-delete.png)
  
  
