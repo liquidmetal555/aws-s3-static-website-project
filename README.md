@@ -69,14 +69,14 @@ Updated S3 bucket permissions to allow public access so the website could be vie
 
 ### 5.🔗  Presigned URL GenerationBucket Policy Configuration
 Generated a presigned URL to securely provide temporary access to a specific object and verified time-based access control.
-    ![Bucket Policy](Screenshots/bucket-policy.png)
+    ![Bucket Policy](Screenshots/presigned-url.png)
 
 ---
 
 ### 6. 🛡️  Bucket Policy Configuration
 Configured a bucket policy to define access rules and restrict unauthorized actions such as deletion.
-
-   ![Presigned URL](Screenshots/presigned-url.png)
+bucket-policy
+   ![Presigned URL](Screenshots/bucket-policy.png)
 
 ---
 
