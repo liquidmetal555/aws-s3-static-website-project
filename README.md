@@ -77,7 +77,9 @@ Generated a presigned URL to securely provide temporary access to a specific obj
 Implemented an Amazon S3 bucket policy to enhance website security by preventing the deletion of critical website files (index.html, styles.css, and script.js). The policy uses an explicit Deny on the s3:DeleteObject action, ensuring that protected website assets cannot be accidentally or maliciously removed.
 
   ![Bucket Policy](Screenshots/bucket-policy.png)
-
+  
+Verified S3 bucket policy blocking file deletion for improved security of static website assets.
+Notice that the index.html file is listed in the Failed to delete pane
    ![Bucket Policy](Screenshots/failed-to-delete.png)
  
  
