@@ -29,6 +29,8 @@ Users access the site through the S3 static website endpoint after enabling publ
 Website files (HTML, CSS, etc.) are stored directly in the S3 bucket and served as static content without server-side processing.
 Access is managed using S3 bucket policies and public access settings. Presigned URLs provide temporary secure access to specific objects, and versioning is enabled to track and recover file changes.
 
+Website - http://sim-website555.s3-website-us-west-2.amazonaws.com/
+
 ![AWS S3 Static Website Architecture](screenshots/architecture.png)
 
 
@@ -59,6 +61,7 @@ Uploaded website files including HTML, JS and CSS into the S3 bucket and verifie
 
 ### 4. 👁️ Turning on public access to the objects
 Updated S3 bucket permissions to allow public access so the website could be viewed via browser.
+
 
    ![Public Access](Screenshots/public-access.png)
    ![Public Access](Screenshots/accessed-site.png)
