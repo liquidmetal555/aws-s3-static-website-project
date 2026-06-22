@@ -61,6 +61,7 @@ Uploaded website files including HTML, JS and CSS into the S3 bucket and verifie
 Updated S3 bucket permissions to allow public access so the website could be viewed via browser.
 
    ![Public Access](Screenshots/public-access.png)
+   ![Public Access](Screenshots/accessed-site.png)
 
 ---
 
