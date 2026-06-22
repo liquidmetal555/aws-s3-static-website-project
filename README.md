@@ -76,8 +76,8 @@ Generated a presigned URL to securely provide temporary access to a specific obj
 ### 6. 🛡️  Bucket Policy Configuration
 Configured a bucket policy to define access rules and restrict unauthorized actions such as deletion.
 
-   ![Presigned URL](Screenshots/bucket-policy.png)
-
+  
+bucket-policy
 ---
 
 ### 7. 🔄 Website Update
