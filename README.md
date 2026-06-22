@@ -97,8 +97,7 @@ Updated website content by modifying and re-uploading files and verified changes
 ### 8. 📋 Object Versioning Enabled
 Enabled versioning on the S3 bucket to track changes and allow recovery of previous file versions in case of updates or accidental changes.
 
-   ![Versioning](Screenshots/versioning.png)
-
+   ![Website Update](Screenshots/versioning.png)
 
 ---
 
