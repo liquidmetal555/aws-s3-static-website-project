@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+
+    background: linear-gradient(-45deg,
+        #f80404,
+        #df4b07,
+        #eec306,
+        #c1eb06,
+        #e70651
+    );
+
+    background-size: 400% 400%;
+    animation: flow 10s ease infinite;
+}
+
+@keyframes flow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 16px;
+    width: 320px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #c0c0c0;
+    color: black;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
