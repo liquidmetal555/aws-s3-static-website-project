@@ -26,7 +26,7 @@ This project was completed as part of hands on AWS learning to strengthen cloud 
 
 This project uses a single Amazon S3 bucket to host a static website.
 Users access the site through the S3 static website endpoint after enabling public access to bucket objects.
-Website files (HTML, CSS, etc.) are stored directly in the S3 bucket and served as static content without server-side processing.
+Website files (HTML, CSS,JS ) are stored directly in the S3 bucket and served as static content without server-side processing.
 Access is managed using S3 bucket policies and public access settings. Presigned URLs provide temporary secure access to specific objects, and versioning is enabled to track and recover file changes.
 
 
@@ -147,5 +147,5 @@ It demonstrates foundational cloud engineering and DevOps skills including infra
 ## 📝 Author
 
 - **Desmond Ojei**
-- GitHub: [@liquidmetal](https://github.com/liquidmetal)
+- GitHub: [@liquidmetal555](https://github.com/liquidmetal555)
 - Date: 2026-06-19
