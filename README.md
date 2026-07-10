@@ -30,9 +30,8 @@ Website files (HTML, CSS,JS ) are stored directly in the S3 bucket and served as
 Access is managed using S3 bucket policies and public access settings. Presigned URLs provide temporary secure access to specific objects, and versioning is enabled to track and recover file changes.
 
 
+![AWS S3 Static Website Architecture ](Screenshots/architecture.PNG)
 
-
-AWS S3 Static Website Architecture Screenshots/architecture.PNG
 
 ## Steps Performed
 
